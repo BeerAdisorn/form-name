@@ -22,7 +22,7 @@ class Product extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} >
                 <div>
                     <h1 className="">กรอกชื่อ</h1>
                     <input className="mt-2" type="text" value={this.state.value} onChange={this.handleChange}></input>
